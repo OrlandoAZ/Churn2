@@ -59,6 +59,7 @@ reset_inputs()
 
 # ------------------------Título centrado-------------------------------------------------
 st.title("Modelo Predictivo de Churn en un Banco con Random Forest Classifier")
+st.markdown("Elaborado por Orlando Advíncula Zeballos.")
 st.markdown("Este modelo predice si un cliente cerrará su cuenta en el banco (Churn) en base a diferentes características.")
 st.markdown("---")
 
@@ -138,4 +139,5 @@ if st.button("Resetear"):
 #pip freeze > requirements.txt
 
 #  LUEGO DE CREAR requirements: 
+
 #    pip install -r requirements.txt
